@@ -1,0 +1,13 @@
+user,role
+a.ahmed,accounts_payable_clerk
+a.ahmed,finance_viewer
+b.baker,accounts_payable_approver
+b.baker,payment_runner
+c.chen,vendor_master_admin
+c.chen,accounts_payable_approver
+d.diaz,accounts_payable_clerk
+e.evans,system_admin
+e.evans,treasury
+f.fischer,finance_viewer
+g.garcia,payment_runner
+svc.integration,finance_viewer

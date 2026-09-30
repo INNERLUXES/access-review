@@ -1,0 +1,10 @@
+{
+  "_note": "Example rules for a purchase-to-pay process. Your own rules come from your auditors and your controls.",
+  "conflicts": [
+    { "name": "create and approve invoices", "a": ["invoice.create"], "b": ["invoice.approve"] },
+    { "name": "approve invoices and release payments", "a": ["invoice.approve"], "b": ["payment.release"] },
+    { "name": "change vendors and approve invoices", "a": ["vendor.create", "vendor.update"], "b": ["invoice.approve"] },
+    { "name": "change bank details and release payments", "a": ["bank.update"], "b": ["payment.release"] }
+  ],
+  "privileged": ["user.manage", "role.manage", "bank.update"]
+}

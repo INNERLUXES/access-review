@@ -1,0 +1,10 @@
+{
+  "accounts_payable_clerk": ["invoice.create", "invoice.read", "vendor.read"],
+  "accounts_payable_approver": ["invoice.approve", "invoice.read"],
+  "vendor_master_admin": ["vendor.create", "vendor.update", "vendor.read"],
+  "payment_runner": ["payment.release", "invoice.read"],
+  "finance_viewer": ["invoice.read", "vendor.read", "report.read"],
+  "system_admin": ["user.manage", "role.manage", "invoice.read"],
+  "treasury": ["payment.release", "bank.update"],
+  "old_reporting": ["report.read"]
+}
