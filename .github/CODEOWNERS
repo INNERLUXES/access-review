@@ -1,0 +1,6 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The review rules and the input checks decide every finding the tool prints; changes need extra care.
+/src/review.js @innerluxesdev
+/src/input.js @innerluxesdev
